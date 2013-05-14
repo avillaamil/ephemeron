@@ -4,8 +4,7 @@ class Article {
    ---------------------------------------------------------------- */
 
   String title = "Untitled", url = "URL", pubDate ="####-##-##", articleID = "#", section = "###";
-  int commentCount = 0, views = 0, articleAge = 0, shares = 0;
-  boolean alive = false; // checks if article is still in most popular database
+  int commentCount = 0, views = 0, articleAge = 0, shares = 0, alive = 0;
   Date date;
 
   Article(String _url) {
@@ -16,21 +15,20 @@ class Article {
 
   Article(String _url, String _title) {
     url = _url;
-    title = _title;
+    setTitle(_title);
     reqCommentCount();
   }
 
   Article(String _url, String _title, String _views) {
     url = _url;
-    title = _title;
+    setTitle(_title);
     setViews(_views);
     reqCommentCount();
   }
 
-  // for table: how can i calculate articleAge here?
   Article(String _url, String _title, String _pubDate, String _articleID, String _section, int _commentCount, int _views, int _shares) {
     url = _url;
-    title = _title;
+    setTitle(_title);
     setDate(_pubDate);
     articleID = _articleID;
     section = _section;
@@ -55,7 +53,10 @@ class Article {
   }
 
   void setTitle(String _title) {
-    title = _title;
+    if (_title != null)
+    {
+      title = _title.replace("\n", "").replace("\r", "").replace("  ", " ").replace("   ", " ").replace("    ", " ");
+    }
   }
 
   void setViews(String _views) {
@@ -71,8 +72,7 @@ class Article {
       long articleMS = date.getTime();
       long nowMS = new Date().getTime();
       long betweenMS = nowMS - articleMS;
-      articleAge = (int)betweenMS/1000/60/60/24;   //calculated as days
-      //println("This article is " + articleAge + " days old.");
+      articleAge = (int)betweenMS/1000/60/60/24; //calculated as days
     } 
     catch (Exception e) {
       println("Unable to parse date stamp " + _date + " " + e);
@@ -95,7 +95,6 @@ class Article {
     XML request3 = apis.get("community").getQuery("comments/url/exact-match.xml", params);
     try {
       if (request3.getChild("status").getContent().indexOf("OK") != -1 ) {
-        //println(request3.getChild("results").getChild("totalCommentsFound").getContent());
         setCommentCount(request3.getChild("results").getChild("totalCommentsFound").getContent());
       }
     } 
@@ -108,9 +107,9 @@ class Article {
 
   /* Saving Data to the Table
    ---------------------------------------------------------------- */
-   
+
   void save(Table t) {
-    TableRow row = table.addRow();
+    TableRow row = t.addRow();
 
     // Set the values of that row
     row.setString("url", url); 
@@ -120,7 +119,9 @@ class Article {
     row.setString("section", section);
     row.setInt("commentCount", commentCount);
     row.setInt("views", views);
+    row.setInt("articleAge", articleAge);
     row.setInt("shares", shares);
+    row.setInt("alive", alive);
   }
 }
 

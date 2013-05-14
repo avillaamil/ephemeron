@@ -1,7 +1,11 @@
-/*  ephemeron 
- 
+/*  
  Alessandra Villaamil
- ITP Thesis 2013
+ ITP Thesis 2013                                     
+          _                             
+  ___ ___| |_ ___ _____ ___ ___ ___ ___ 
+ | -_| . |   | -_|     | -_|  _| . |   |
+ |___|  _|_|_|___|_|_|_|___|_| |___|_|_|
+     |_|                                
  
  */
 
@@ -11,15 +15,19 @@ import java.util.List;
 import java.net.URLEncoder;
 import java.util.Iterator;
 
-PFont font;
-PFont font2;
+PFont courier12;
+PFont courier14;
+PFont courier18;
+PFont courier16;
 Object[] keys;
 int k; // [k] position in HashMap
 int articleAge;
 int aniView;
 int aniShare;
-PrintWriter output;
 Boolean drawText;
+
+PImage img;
+
 
 Table table;
 HashMap <String, NYTapi> apis = new HashMap(); // storing API Keys
@@ -34,14 +42,19 @@ Iterator iterator = articles.keySet().iterator();
  ---------------------------------------------------------------- */
 
 void setup() {
-  size(1224, 968); // 1024, 768: keynote dimensions
+  size(1224, 968);//(displayWidth, displayHeight);//(1224, 968);//(1224, 918); //(1278, 721);// 1024, 768: keynote dimensions
   smooth(8);
   colorMode(HSB, 360, 100, 100, 100); 
   background(360);
-  font = loadFont("CourierNewPSMT-12.vlw");
-  font2 = loadFont("CourierNewPSMT-14.vlw");
+  courier12 = loadFont("CourierNewPSMT-12.vlw");
+  courier14 = loadFont("CourierNewPSMT-14.vlw");
+  courier18 = loadFont("Courier-18.vlw");
+  courier16 = loadFont("Courier-16.vlw");
   drawText= true;
-
+  
+//  img = loadImage("foram1x.jpg");
+//  background(img);
+  
   apis.put("mostpop", new NYTapi("ff9024dab300f1b899643bc225c6dc4d:7:66899748", "mostpopular/v2/"));
   apis.put("community", new NYTapi("b6cc18e1be6bd5fa90374c712a3330c2:5:66899748", "community/v2/"));
   tableIO();
@@ -94,6 +107,7 @@ void keyPressed() {
   if (key == 's') saveImage(0);     
   if (key == CODED) {
     background(360);
+    //background(img);
     if (keyCode == RIGHT) {
       k++;
     } 
@@ -103,4 +117,5 @@ void keyPressed() {
   }
   k = constrain(k, 0, keys.length-1);
 }
+
 

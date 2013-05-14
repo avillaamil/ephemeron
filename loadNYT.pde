@@ -11,10 +11,8 @@ void loadNYT() {
   XML request = apis.get("mostpop").getQuery("mostshared/all-sections/twitter;facebook;email/1.xml");
   XML[] results = request.getChild("results").getChildren();
 
-  //int counter = 1;
   for (int i = 0; i < results.length; i++) {
     XML temp = results[i];
-
     String url = temp.getChild("url").getContent();
     String title = temp.getChild("title").getContent();
     String pubDate = temp.getChild("published_date").getContent();
@@ -27,7 +25,7 @@ void loadNYT() {
     tempArticle.setArticleID(articleID);
     tempArticle.setShares(shares);
     tempArticle.setSection(section);
-    tempArticle.alive = true;
+    tempArticle.alive = 1; // article is in most pop
 
     if (shares != "0") {
       articles.put(url, tempArticle);
@@ -41,7 +39,6 @@ void loadNYT() {
 
   for (int i = 0; i < results.length; i++) {
     XML temp = results[i];
-
     String url = temp.getChild("url").getContent();
     String title = temp.getChild("title").getContent();
     String views = temp.getChild("views").getContent();
@@ -53,18 +50,21 @@ void loadNYT() {
 
     //If articles are already in HashMap from most shared request
     if (articles.containsKey(url)) {
+      println("Updating article " + url);
       thisArticle = articles.get(url);
       thisArticle.setViews(views);
       thisArticle.setDate(pubDate);
-      thisArticle.alive = true;
+      thisArticle.alive = 1; // article is in most pop
     } 
+    
     //If article is not in most shared, but is in most viewed
     else {
+      println("New article " + url);
       thisArticle = new Article(url, title, views);
       thisArticle.setDate(pubDate);
       thisArticle.setArticleID(articleID);
       thisArticle.setSection(section);
-      thisArticle.alive = true;
+      thisArticle.alive = 1; // article is in most pop
 
       if (views != "0") {
         articles.put(url, thisArticle);
@@ -79,10 +79,8 @@ void loadNYT() {
   keys = articles.keySet().toArray();
   int removeCounter = 1;
   for (int i = 0; i < keys.length; i ++) {
-    //println(keys[i]);
     int articleViews = articles.get(keys[i]).views;
     int articleShares = articles.get(keys[i]).shares;
-
     if (articleViews == 0 || articleShares == 0) {
       //println(removeCounter + " -=REJECTED=-");
       removeCounter++;
@@ -104,7 +102,6 @@ void loadNYT() {
   // ------ iterate through HashMap keys ------ a different way of iterating with the java iterator class
   Iterator iterator = articles.keySet().iterator();  
   while (iterator.hasNext ()) {  
-
     String key = iterator.next().toString();
     String valueDate = articles.get(key).pubDate;
     String valueID = articles.get(key).articleID; 

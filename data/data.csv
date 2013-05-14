@@ -1,25 +1,75 @@
-url,title,pubDate,articleID,section,commentCount,views,articleAge,shares
-http://www.nytimes.com/2013/04/26/business/media/new-great-gatsby-book-carries-a-hollywood-look.html,Judging ‘Gatsby’ by Its Cover(s),2013-04-26,100000002193002,Business Day,12,74219,,1014
-http://www.nytimes.com/2013/04/28/magazine/the-problem-with-how-we-treat-bipolar-disorder.html,The Problem With How We Treat Bipolar Disorder,2013-04-28,100000002184918,Magazine,23,48605,,1323
-http://www.nytimes.com/2013/04/28/magazine/diederik-stapels-audacious-academic-fraud.html,The Mind of a Con Man,2013-04-28,100000002188041,Magazine,17,119203,,1389
-http://www.nytimes.com/2013/04/26/opinion/debt-growth-and-the-austerity-debate.html,"Debt, Growth and the Austerity Debate",2013-04-26,100000002192770,Opinion,21,73349,,872
-http://www.nytimes.com/2013/04/27/business/netflix-looks-back-on-its-near-death-spiral.html,Netflix Looks Back on Its Near-Death Spiral,2013-04-27,100000002193842,Business Day,0,63112,,451
-http://www.nytimes.com/2013/04/28/magazine/diederik-stapels-audacious-academic-fraud.html,The Mind of a Con Man,2013-04-28,100000002188041,Magazine,17,119203,,1389
-http://www.nytimes.com/2013/04/27/arts/design/rosenberg-familys-quest-to-regain-art-stolen-by-nazis.html,"Family, ‘Not Willing to Forget,’ Pursues Art It Lost to Nazis",2013-04-27,100000002194477,Arts,78,82582,,1583
-http://www.nytimes.com/2013/04/28/magazine/the-problem-with-how-we-treat-bipolar-disorder.html,The Problem With How We Treat Bipolar Disorder,2013-04-28,100000002184918,Magazine,23,48605,,1329
-http://www.nytimes.com/2013/04/26/us/farm-loan-bias-claims-often-unsupported-cost-us-millions.html,U.S. Opens Spigot After Farmers Claim Discrimination,2013-04-26,100000002193085,U.S.,10,84841,,1347
-http://www.nytimes.com/2013/04/27/business/netflix-looks-back-on-its-near-death-spiral.html,Netflix Looks Back on Its Near-Death Spiral,2013-04-27,100000002193842,Business Day,0,63112,,445
-http://www.nytimes.com/2013/04/27/opinion/blow-the-morose-middle-class.html,The Morose Middle Class,2013-04-27,100000002195270,Opinion,26,51553,,517
-http://www.nytimes.com/2013/04/27/nyregion/in-new-york-the-death-of-a-countess-in-exile.html,The Death of a Countess in Exile,2013-04-27,100000002195207,N.Y. / Region,87,88905,,657
-http://www.nytimes.com/2013/04/27/world/europe/eu-is-pressed-to-reconsider-cuts-as-economic-cure.html,Europe Facing More Pressure to Reconsider Cuts as a Cure,2013-04-27,100000002193912,World,15,46173,,610
-http://www.nytimes.com/2013/04/27/arts/design/rosenberg-familys-quest-to-regain-art-stolen-by-nazis.html,"Family, ‘Not Willing to Forget,’ Pursues Art It Lost to Nazis",2013-04-27,100000002194477,Arts,117,72084,,1453
-http://www.nytimes.com/2013/04/26/health/for-boston-bombing-victims-a-long-painful-road-to-recovery.html,Victims in Boston Face a Difficult Path to Recovery,2013-04-26,100000002193083,Health,0,159096,,567
-http://www.nytimes.com/2013/04/28/magazine/the-problem-with-how-we-treat-bipolar-disorder.html,The Problem With How We Treat Bipolar Disorder,2013-04-28,100000002184918,Magazine,23,50242,,1371
-http://www.nytimes.com/2013/04/26/opinion/krugman-the-one-percents-solution.html,The 1 Percent’s Solution,2013-04-26,100000002192793,Opinion,24,87045,,1549
-http://www.nytimes.com/2013/04/27/arts/music/george-jones-country-singer-dies-at-81.html,His Life Was a Country Song,2013-04-27,100000002193840,Arts,12,48755,,1885
-http://www.nytimes.com/2013/04/27/business/netflix-looks-back-on-its-near-death-spiral.html,Netflix Looks Back on Its Near-Death Spiral,2013-04-27,100000002193842,Business Day,0,61609,,439
-http://theater.nytimes.com/2013/04/26/theater/reviews/pippin-directed-by-diane-paulus-at-the-music-box-theater.html,"The Old Razzle-Dazzle, Fit for a Prince",2013-04-26,100000002192560,Theater,0,41477,,500
-http://www.nytimes.com/2013/04/27/opinion/blow-the-morose-middle-class.html,The Morose Middle Class,2013-04-27,100000002195270,Opinion,26,53616,,528
-http://www.nytimes.com/2013/04/27/us/in-rural-georgia-students-step-up-to-offer-integrated-prom.html,A Racial Divide Closes as Students Step Up,2013-04-27,100000002193949,U.S.,0,160738,,1922
-http://www.nytimes.com/2013/04/27/nyregion/in-new-york-the-death-of-a-countess-in-exile.html,The Death of a Countess in Exile,2013-04-27,100000002195207,N.Y. / Region,94,98861,,688
-http://www.nytimes.com/2013/04/28/magazine/diederik-stapels-audacious-academic-fraud.html,The Mind of a Con Man,2013-04-28,100000002188041,Magazine,17,124069,,1460
+url,title,pubDate,articleID,section,commentCount,views,articleAge,shares,alive
+http://www.nytimes.com/2013/05/06/opinion/krugman-the-chutzpah-caucus.html,The Chutzpah Caucus,2013-05-06,100000002209111,Opinion,15,136137,4,1857,0
+http://www.nytimes.com/2013/04/30/opinion/brooks-engaged-or-detached.html,Engaged or Detached?,2013-04-30,100000002199111,Opinion,31,81988,10,664,0
+http://www.nytimes.com/2013/04/30/world/europe/oslo-copes-with-shortage-of-garbage-it-turns-into-energy.html,A City That Turns Garbage Into Energy Copes With a Shortage,2013-04-30,100000002193737,World,0,65557,10,803,0
+http://www.nytimes.com/2013/05/11/world/middleeast/3-ultra-orthodox-men-arrested-in-western-wall-standoff.html,3 Ultra-Orthodox Men Arrested in Confrontation at Western Wall,2013-05-11,100000002217971,World,329,79355,0,874,1
+http://www.nytimes.com/2013/05/02/science/evidence-of-cannibalism-found-at-jamestown-site.html,Girl’s Bones Bear Signs of Cannibalism by Starving Virginia Colonists,2013-05-02,100000002202082,Science,0,203877,8,1591,0
+http://www.nytimes.com/2013/04/29/business/empire-state-building-feud-nears-crucial-ruling.html,"A Nasty, Epic Real Estate Battle With Stakes 102 Stories High",2013-04-29,100000002197038,Business Day,0,93311,11,518,0
+http://www.nytimes.com/2013/05/05/sunday-review/the-idled-young-americans.html,The Idled Young Americans,2013-05-05,100000002206269,Sunday Review,0,50202,5,456,0
+http://opinionator.blogs.nytimes.com/2013/04/27/no-rich-child-left-behind/,No Rich Child Left Behind,2013-04-27,289,Opinion,48,52048,13,979,0
+http://www.nytimes.com/2013/05/10/opinion/the-next-pandemic-is-closer-than-you-think.html,"The Next Pandemic: Not if, but When",2013-05-10,100000002217427,Opinion,8,73187,0,1413,1
+http://www.nytimes.com/2013/04/30/world/asia/radioactive-water-imperils-fukushima-plant.html,Flow of Tainted Water Is Latest Crisis at Japan Nuclear Plant,2013-04-30,100000002199071,World,11,113231,10,1490,0
+http://www.nytimes.com/2013/05/02/technology/cellphone-thefts-grow-but-the-industry-looks-the-other-way.html,"Cellphone Thefts Grow, but the Industry Looks the Other Way",2013-05-02,100000002203031,Technology,12,131518,8,1156,0
+http://www.nytimes.com/2013/05/04/world/asia/rat-meat-sold-as-lamb-in-china-highlights-fears.html,Rat Meat Sold as Lamb Highlights Fear in China,2013-05-04,100000002205517,World,0,52592,6,1026,0
+http://www.nytimes.com/2013/05/06/us/kentucky-town-rejects-girls-gun-death-as-a-symbol.html,Girl’s Death by Gunshot Is Rejected as Symbol,2013-05-06,100000002209050,U.S.,0,88406,4,707,0
+http://www.nytimes.com/2013/05/01/movies/deanna-durbin-1930s-star-of-universal-pictures-dies-at-91.html,"Deanna Durbin, Plucky Movie Star of the Depression Era, Is Dead at 91",2013-05-01,100000002201137,Movies,0,66640,9,1006,0
+http://www.nytimes.com/2013/05/10/nyregion/eight-charged-in-45-million-global-cyber-bank-thefts.html,"In Hours, Thieves Took $45 Million in A.T.M. Scheme",2013-05-10,100000002216529,N.Y. / Region,0,400717,0,3884,1
+http://www.nytimes.com/2013/05/03/nyregion/new-jersey-officials-detail-bid-by-tick-tock-diner-manager-to-have-uncle-killed.html,"A Diner, a Family and a Murder Plot",2013-05-03,100000002205074,N.Y. / Region,0,79729,7,931,0
+http://www.nytimes.com/2013/05/04/us/path-from-social-butterfly-to-suspects-widow-in-hijab.html,Path From ‘Social Butterfly’ to Boston Suspect’s Widow,2013-05-04,100000002207365,U.S.,209,42559,6,663,0
+http://www.nytimes.com/2013/05/04/sports/conor-murphys-big-bet-bankrolls-horse-training-career.html,"With One Bet, Stablehand Becomes Stable Owner",2013-05-04,100000002197722,Sports,0,108796,6,1329,0
+http://movies.nytimes.com/2013/05/10/movies/the-great-gatsby-interpreted-by-baz-luhrmann.html,Shimmying Off the Literary Mantle,2013-05-10,100000002215393,Movies,0,126685,0,1253,1
+http://www.nytimes.com/2013/05/05/us/dzhokhar-tsarnaevs-dark-side-carefully-masked.html,"The Dark Side, Carefully Masked",2013-05-05,100000002207809,U.S.,0,50431,5,393,0
+http://well.blogs.nytimes.com/2013/05/06/why-dirty-pacifiers-may-be-your-childs-friend/,Sucking Your Child's Pacifier Clean May Have Benefits,2013-05-06,24,Health,71,84594,4,2354,0
+http://opinionator.blogs.nytimes.com/2013/05/02/house-of-un-representatives/,House of Un-Representatives,2013-05-02,289,Opinion,15,60526,8,1674,0
+http://www.nytimes.com/2013/05/10/opinion/krugman-bernanke-blower-of-bubbles.html,"Bernanke, Blower of Bubbles?",2013-05-10,100000002217526,Opinion,18,134742,0,1150,1
+http://www.nytimes.com/2013/05/03/us/airport-project-reflects-a-changing-silicon-valley.html,Corporate Jet Center Exposes Silicon Valley’s Class Divide,2013-05-03,100000002195088,U.S.,138,81933,7,573,0
+http://www.nytimes.com/2013/05/06/opinion/keller-syria-is-not-iraq.html,Syria Is Not Iraq,2013-05-06,100000002209092,Opinion,13,65704,4,545,0
+http://www.nytimes.com/2013/05/10/opinion/the-republicans-benghazi-obsession.html,The Republicans’ Benghazi Obsession,2013-05-10,100000002217680,Opinion,24,98617,0,901,1
+http://opinionator.blogs.nytimes.com/2013/05/02/cameristas/,Cameristas,2013-05-02,289,Opinion,118,100063,8,806,0
+http://www.nytimes.com/2013/05/02/business/some-retailers-rethink-their-role-in-bangladesh.html,Some Retailers Rethink Role in Bangladesh,2013-05-02,100000002203107,Business Day,24,80488,8,1139,0
+http://www.nytimes.com/2013/05/11/business/economy/student-loan-debt-weighing-down-younger-us-workers.html,Student Debt Slows Growth as Young Spend Less,2013-05-11,100000002218394,Business Day,21,55926,0,895,1
+http://economix.blogs.nytimes.com/2013/05/03/life-is-o-k-if-you-went-to-college/,"Life Is O.K., if You Went to College",2013-05-03,307,Business Day,148,58619,7,768,0
+http://www.nytimes.com/2013/04/28/opinion/sunday/dowd-the-silver-foxs-pink-slip.html,Silver Fox’s Pink Slip,2013-04-28,100000002195531,Opinion,11,52018,12,523,0
+http://www.nytimes.com/2013/05/03/health/suicide-rate-rises-sharply-in-us.html,Suicide Rates Rise Sharply in U.S.,2013-05-03,100000002204100,Health,48,80987,7,1189,0
+http://www.nytimes.com/2013/04/28/magazine/diederik-stapels-audacious-academic-fraud.html,The Mind of a Con Man,2013-04-28,100000002188041,Magazine,13,59982,12,923,0
+http://well.blogs.nytimes.com/2013/05/09/the-scientific-7-minute-workout/,The Scientific 7-Minute Workout,2013-05-09,24,Health,269,381320,1,6581,1
+http://opinionator.blogs.nytimes.com/2013/05/05/how-social-networks-drive-black-unemployment/,How Social Networks Drive Black Unemployment,2013-05-05,289,Opinion,800,196693,5,1635,0
+http://www.nytimes.com/2013/05/07/health/psychiatrys-new-guide-falls-short-experts-say.html,"Psychiatry’s Guide Is Out of Touch With Science, Experts Say",2013-05-07,100000002211038,Health,0,57373,3,1720,0
+http://www.nytimes.com/2013/05/01/dining/making-lunch-with-michael-pollan-and-michael-moss.html,"Pots and Pans, but Little Pain",2013-05-01,100000002200112,Dining & Wine,51,91057,9,1264,0
+http://www.nytimes.com/2013/04/29/opinion/krugman-the-story-of-our-time.html,The Story of Our Time,2013-04-29,100000002197004,Opinion,28,90069,11,1296,0
+http://opinionator.blogs.nytimes.com/2013/05/06/i-am-not-this-body/,I Am Not This Body,2013-05-06,289,Opinion,227,79873,4,857,0
+http://www.nytimes.com/2013/04/30/science/may-britt-and-edvard-moser-explore-the-brains-gps.html,A Sense of Where You Are,2013-04-30,100000002198105,Science,0,67435,10,1304,0
+http://www.nytimes.com/2013/05/03/opinion/brooks-the-confidence-responses.html,The Confidence Responses,2013-05-03,100000002205193,Opinion,188,59270,7,618,0
+http://www.nytimes.com/2013/05/10/us/disease-threatens-floridas-citrus-industry.html,Citrus Disease With No Cure Is Ravaging Florida Groves,2013-05-10,100000002217632,U.S.,80,112095,0,1439,1
+http://www.nytimes.com/2013/04/29/world/asia/cia-delivers-cash-to-afghan-leaders-office.html,"With Bags of Cash, C.I.A. Seeks Influence in Afghanistan",2013-04-29,100000002196804,World,25,184465,11,2758,0
+http://www.nytimes.com/2013/05/06/us/terrorists-find-online-education-for-attacks.html,A Homemade Style of Terror: Jihadists Push New Tactics,2013-05-06,100000002209116,U.S.,18,82724,4,706,0
+http://opinionator.blogs.nytimes.com/2013/05/06/how-colonoscopies-are-like-home-renovations/,How Colonoscopies Are Like Home Renovations,2013-05-06,289,Opinion,13,81645,4,1050,0
+http://www.nytimes.com/2013/05/11/science/earth/carbon-dioxide-level-passes-long-feared-milestone.html,Carbon Dioxide Level Passes Long-Feared Milestone,2013-05-11,100000002213974,Science,666,129494,0,4404,1
+http://www.nytimes.com/2013/04/29/opinion/keller-erasing-history.html,Erasing History,2013-04-29,100000002197060,Opinion,154,53960,11,693,0
+http://dealbook.nytimes.com/2013/05/02/jpmorgan-caught-in-swirl-of-regulatory-woes/,"JPMorgan Caught in Swirl of Regulatory Woes ",2013-05-02,243,Business Day,221,92151,8,971,0
+http://www.nytimes.com/2013/04/29/us/asians-now-largest-immigrant-group-in-southern-california.html,New Suburban Dream Born of Asia and Southern California,2013-04-29,100000002196921,U.S.,0,133854,11,1464,0
+http://www.nytimes.com/2013/05/02/us/3-more-people-in-custody-in-boston-bombing-case.html,"After Boston Attack, 3 Friends Covered It Up, Prosecutors Say",2013-05-02,100000002201840,U.S.,18,235948,8,613,0
+http://www.nytimes.com/2013/05/01/opinion/dowd-bottoms-up-lame-duck.html,"Bottoms Up, Lame Duck",2013-05-01,100000002201191,Opinion,25,47956,9,537,0
+http://www.nytimes.com/2013/05/10/us/after-plant-explosion-texas-remains-wary-of-regulation.html,"After Plant Explosion, Texas Remains Wary of Regulation",2013-05-10,100000002217653,U.S.,11,51515,0,1119,1
+http://www.nytimes.com/2013/05/05/us/politics/tech-firms-take-lead-in-lobbying-on-immigration.html,Latest Product From Tech Firms: An Immigration Bill,2013-05-05,100000002207822,U.S.,12,42418,5,636,0
+http://www.nytimes.com/2013/05/04/sports/tom-knapp-crowd-pleasing-trick-shooter-dies-at-62.html,"Tom Knapp, Crowd-Pleasing Sure Shot, Dies at 62",2013-05-04,100000002207321,Sports,0,46231,6,314,0
+http://www.nytimes.com/2013/05/01/opinion/friedman-its-a-401k-world.html,It’s a 401(k) World,2013-05-01,100000002201087,Opinion,29,63279,9,998,0
+http://www.nytimes.com/2013/04/29/opinion/the-dutch-should-ditch-the-king-and-hire-an-actor.html,Ditch the King. Hire an Actor.,2013-04-29,100000002194940,Opinion,0,63944,11,963,0
+http://well.blogs.nytimes.com/2013/05/01/the-problem-of-breast-pain-in-women-who-exercise/,The Problem of Breast Pain in Women Who Exercise,2013-05-01,24,Health,76,58055,9,407,0
+http://www.nytimes.com/2013/05/10/opinion/brooks-started-at-the-bottom.html,Started at the Bottom,2013-05-10,100000002217487,Opinion,202,65936,0,501,1
+http://www.nytimes.com/2013/05/06/business/port-chester-ny-is-transformed-by-immigration.html,Transformation of a Town Underscores Immigrants’ Impact,2013-05-06,100000002209091,Business Day,16,54811,4,591,0
+http://www.nytimes.com/2013/05/01/dining/reviews/restaurant-review-saison-in-san-francisco.html,"Before Rewards, Demands",2013-05-01,100000002200154,Dining & Wine,168,66159,9,718,0
+http://www.nytimes.com/2013/05/01/business/global/chinese-way-of-doing-business-in-cash-we-trust.html,Chinese Way of Doing Business: In Cash We Trust,2013-05-01,100000002201041,Business Day,84,46157,9,688,0
+http://www.nytimes.com/2013/05/07/technology/personaltech/google-glass-picks-up-early-signal-keep-out.html,Google Glass Picks Up Early Signal: Keep Out,2013-05-07,100000002210932,Technology,14,140268,3,613,0
+http://www.nytimes.com/2013/05/05/world/europe/in-lean-years-after-boom-spains-graft-laid-bare.html,Small-Town Mayor’s Millions as Exhibit A on Graft in Spain,2013-05-05,100000002199685,World,0,39552,5,1584,0
+http://www.nytimes.com/2013/05/07/us/suit-cites-race-bias-in-farms-use-of-immigrants.html,Workers Claim Race Bias as Farms Rely on Immigrants,2013-05-07,100000002209636,U.S.,15,67323,3,842,0
+http://www.nytimes.com/2013/05/05/education/in-disgrace-yet-in-demand-as-college-teachers.html,"The Last Refuge From Scandal? Professorships ",2013-05-05,100000002207853,Education,0,45443,5,589,0
+http://www.nytimes.com/2013/05/05/arts/television/the-office-finale.html,One Last Cringe for ‘The Office’ Finale,2013-05-05,100000002200532,Arts,67,41870,5,566,0
+http://www.nytimes.com/2013/05/03/opinion/krugman-not-enough-inflation.html,Not Enough Inflation,2013-05-03,100000002205243,Opinion,10,58547,7,576,0
+http://www.nytimes.com/2013/05/02/opinion/collins-the-luv-guvs-last-stand.html,The Luv Guv’s Last Stand,2013-05-02,100000002203010,Opinion,17,101664,8,846,0
+http://www.nytimes.com/2013/05/02/business/energy-environment/cross-country-solar-plane-expedition-set-for-takeoff.html,Cross-Country Solar Plane Expedition Set for Takeoff,2013-05-02,100000002203024,Business Day,0,52866,8,1008,0
+http://www.nytimes.com/2013/05/04/nyregion/crime-scene-chasing-down-a-gps-blip-to-a-stolen-iphone.html,Theft of an iPhone Sets Off a Cinematic High-Speed Chase,2013-05-04,100000002205869,N.Y. / Region,0,87241,6,991,0
+http://www.nytimes.com/2013/05/02/fashion/williamsburg.html,How I Became a Hipster,2013-05-02,100000002202033,Fashion & Style,13,93477,8,1365,0
+http://well.blogs.nytimes.com/2013/05/09/heart-association-weighs-in-on-pets/,Owning a Dog Is Linked to Reduced Heart Risk,2013-05-09,24,Health,158,78221,1,3520,1
+http://www.nytimes.com/2013/05/06/technology/apples-rivals-see-an-edge-in-using-wireless-accessories.html,Accessories No Longer Tethered to Apple,2013-05-06,100000002208760,Technology,0,52567,4,439,0
+http://www.nytimes.com/2013/05/06/business/media/solving-equation-of-a-hit-film-script-with-data.html,"Solving Equation of a Hit Film Script, With Data",2013-05-06,100000002209061,Business Day,18,88921,4,2159,0
